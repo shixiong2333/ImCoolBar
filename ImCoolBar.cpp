@@ -190,7 +190,7 @@ IMGUI_API bool ImGui::CoolBarItem() {
         }
     }
 
-    BREAK_ON_KEY(ImGuiKey_D);
+    // BREAK_ON_KEY(ImGuiKey_D);
     window_ptr->StateStorage.SetInt(item_index_id, idx + 1);
     window_ptr->StateStorage.SetFloat(coolbar_item_id, current_size);
     window_ptr->StateStorage.SetFloat(last_mouse_pos_id, last_mouse_pos);
